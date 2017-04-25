@@ -6,3 +6,6 @@ Started working on layout mobile-first approach.
 
 4/22/2017:
 Finished initial layouts. Start looking at Javascript implementation.
+
+4/24/2017:
+Implemented Dynamic API Querying, Need to style sections for responsive design
