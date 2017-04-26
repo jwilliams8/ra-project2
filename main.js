@@ -70,12 +70,14 @@ function createArticleSection(article){
     var a = document.createElement('a');
     var div = document.createElement('div');
     var p = document.createElement('p');
-
+    
     a.href = article.url;
-    a.style = 'width: 25%;'
+    a.classList.add("full-width", "third-width", "quarter-width");
     div.style = 'background: '+'url('+ article.imageURL + ') center center no-repeat;background-size: cover;height: 275px; display: flex; align-items: flex-end;';
-    p.style = 'background-color: rgba(0,0,0,0.3); color: white;';
+    p.style = 'background-color: rgba(0,0,0,0.3);';
+    p.classList.add('white-font');
     p.innerHTML= article.caption;
+
     a.appendChild(div);
     div.appendChild(p);
     container.appendChild(a);
