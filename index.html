@@ -5,16 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="dist/all.min.css">
   <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
   <script src='main.js'></script>
 </head>
 <body class='black-background flex column' >
-<header class='flex justify-center flex-wrap'>
+<header id=nav class='flex justify-center flex-wrap'>
 <div class="flex justify-center align-center">
-<img src="images/nyt-logo.svg" alt="nyt logo">
+<img id=logo src="images/nyt-logo.svg" alt="nyt logo">
 </div>
-<div class='form-container flex flex-wrap justify-center align-center'>
+<div id=form-container class='form-container flex flex-wrap justify-center align-center'>
 <h5 class='white-font'>Choose a section:</h5>
 <form action="">
 <select name="genre" id="genre">
@@ -49,7 +50,10 @@
 </div>
 </form>
 </header>
-<main id=stories class="flex flex-wrap">
+<div id=overlay class="flex justify-center align-center overlay">
+  <div class='overlay-image-container flex justify-center align-center'><img class='' src="images/ajax-loader.gif" alt=""></div>
+</div>
+<main id=stories class="stories hidden flex flex-wrap">
 
 </main>
 

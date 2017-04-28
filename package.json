@@ -1,0 +1,22 @@
+{
+  "name": "ra-project2",
+  "version": "1.0.0",
+  "description": "Instanews- A web-app that utilizes the New York Times API to populate a news-page.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpila/ra-project2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpila/ra-project2/issues"
+  },
+  "homepage": "https://github.com/jpila/ra-project2#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
