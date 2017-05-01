@@ -9,3 +9,6 @@ Finished initial layouts. Start looking at Javascript implementation.
 
 4/24/2017:
 Implemented Dynamic API Querying, Need to style sections for responsive design
+
+4/26/2017:
+Added GULP/SASS and NPM to project.

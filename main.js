@@ -95,7 +95,7 @@ function createArticleSection(article){
     a.classList.add("full-width", "third-width", "quarter-width");
     div.style = 'background: '+'url('+ article.imageURL + ') center center no-repeat;background-size: cover;height: 100%; display: flex; align-items: flex-end;';
     p.style = 'background-color: rgba(0,0,0,0.3);';
-    p.classList.add('gray-font');
+    p.classList.add('white-font');
     p.innerHTML= article.caption;
 
     a.appendChild(div);
